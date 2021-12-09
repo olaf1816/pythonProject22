@@ -5,5 +5,6 @@ def main():
 
  print(len(espacio))
 
+
 if __name__ == '__main__':
  main()
