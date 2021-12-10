@@ -1,18 +1,18 @@
 def main():
+   suma_suspend = 0
+   suspend = 0
+   suma_aprov = 0
+   aprov = 0
+   notas = list()
+
    cantidad = int(input("Di el numero de notas que introduciras: "))
 
-   notas = list()
    x=1
    while x <= cantidad:
       notas.append(int(input(f"Introduce la nota numero {x} :")))
       x += 1
 
    x=0
-   suma_suspend = 0
-   suspend = 0
-   suma_aprov = 0
-   aprov = 0
-
    for x in range (x, cantidad):
       y=notas[x]
       if notas[x]<=4:

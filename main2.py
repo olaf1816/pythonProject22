@@ -1,5 +1,5 @@
 def main():
-   llista = [x for x in range(0, 1001, 8)]
+   llista = [x for x in range(1, 1001) if x%8==0]
 
    print (llista)
 
